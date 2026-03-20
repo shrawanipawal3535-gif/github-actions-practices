@@ -18,13 +18,13 @@ jobs:
     - name: print current date and time
       run: date
 
-    - name: print name of branch
-      run: echo "branch: ${{ github.ref_name}}"
+    - name: show branch name
+      run: echo "Branch: ${{ github.ref_name }}"
 
     - name: list the files in repo
       run: ls -la
 
     - name: show OS
-      run: echo "runner OS: $RUNNER_OS"
+      run: echo "Runner OS: $RUNNER_OS"
       
    
