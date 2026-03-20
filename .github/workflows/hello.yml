@@ -26,5 +26,8 @@ jobs:
 
     - name: show OS
       run: echo "runner os:linux"
+
+    - name: break the pipeline
+      run: exit 1
       
    
