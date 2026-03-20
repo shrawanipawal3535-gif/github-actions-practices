@@ -17,11 +17,14 @@ jobs:
 
     - name: print current date and time
       run: date
+
+    - name: print branch
+      run: echo "on branch main"
       
     - name: list the files in repo
       run: ls -la
 
     - name: show OS
-      run: echo "Runner OS: $RUNNER_OS"
+      run: echo "runner os:linux"
       
    
